@@ -1,0 +1,21 @@
+# This is the DB config file for deployment
+
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+	name: moonbase_DB
+spec:
+	replicas: 1
+	selector:
+		matchLabels: 
+			component: moonbase_DB
+	template: 
+		metadata:
+			labels:
+				component: moonbase_DB
+		containers:
+			- name: moonbase
+			  image: moonbase_DB
+			  ports:
+				- containerPort: 4000
+			  
