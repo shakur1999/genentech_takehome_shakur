@@ -17,4 +17,4 @@
 * `AWS`
 * `circleCI`
 * `Unicycle LoadBalancer`
-* `Pluto Cache`
+
