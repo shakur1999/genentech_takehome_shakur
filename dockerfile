@@ -6,6 +6,11 @@ RUN npm install
 COPY . .
 CMD ["npm", "run", "start"]
 
+
+# creating a single-replica service 
+docker service create nginx
+
+
 # {
 # "action": "commit",
 # "repository" : {
