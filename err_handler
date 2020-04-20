@@ -1,0 +1,7 @@
+# handling error is currently my weakest point that I am studying and
+# in python as I still have it stuck in the Javascript functions
+# this is where the error is handled aka excepts
+
+except Exception as event:
+    print(event)
+print(event, "CDN Cache Cleared")
