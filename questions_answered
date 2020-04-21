@@ -1,0 +1,22 @@
+What metrics are important to you? How do we make sure the build will be stable in production?
+    a. instances and keeping eye on their environment health and hardware utilization
+    b. The duration of how long a build takes
+    c. Failures rates and reasons why code is failing 
+In order the production build be successful and stable,
+there has to be thorough test and development prior to 
+delpoyment using many different latest serverless 
+orchestration tools and systems
+
+Describe the testing process from beginning to end, what steps run whenever a developer pushes new
+code?
+    based on how the Infrastructure is configured, best practices
+    are that as soon as developer sends code to the master branch in 
+    Github, it then automatically gets picked up by the continous testing/integration
+    system i.e Jenkins or CircleCI. Once the testing fully passed as
+    all green checks and statisfied with result and fix any red or potential 
+    errors, then push it container hun registry i.e Docker. At this point,
+    the cloud provider will detect the changes made or it's the first deployment 
+    to AWS, deliver it to AWS and ready for the world to see it.
+
+How do we make sure the tests are able to be run in a reasonable amount of time? Remember, the
+longer it takes us to run the tests, the slower development and deployment times will be
