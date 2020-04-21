@@ -21,7 +21,7 @@
 
 
 
-# Below is the take_home task:
+# Below is the original take_home task:
 
 Genentech | Corporate Digital | Candidate Homework
 One Fun Day At Work
@@ -86,7 +86,8 @@ Please deliver as a zipfile containing your code solution and thoughts in a read
 indicated in the companion email.
 
 # THOUGHTS:
-thank you so much Mathews for this opportunity as I really enjoyed working on this project.
-I have high hopes and looking forward hearing from you guys.
+Thank you so much Mathews for this opportunity as I really enjoyed working on this project.
+I have high hopes and am looking forward to hearing from you guys.
 
-ps, let me know if you want me to delete this repo as it contain this take_home test. thanks :)
+ps, let me know if you want me to delete this repo as it contains this take_home test. thanks :)
+
