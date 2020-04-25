@@ -84,10 +84,3 @@ back operations if anything goes wrong mid deploy. Focus on the big picture and 
 free to add new functions to services if you feel they’d be appropriate.
 Please deliver as a zipfile containing your code solution and thoughts in a readme.md by the deadline
 indicated in the companion email.
-
-# THOUGHTS:
-Thank you so much Mathews for this opportunity as I really enjoyed working on this project.
-I have high hopes and am looking forward to hearing from you guys.
-
-ps, let me know if you want me to delete this repo as it contains this take_home test. thanks :)
-
