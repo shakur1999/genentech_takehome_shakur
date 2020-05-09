@@ -7,7 +7,8 @@
 * `git clone` https://github.com/shakur1999/genentech_takehome_shakur
 * `npm install` # this won't work without the app source code
 * `cd into directory`
-* `npm start`
+* `npm start` # start the production server
+* `npm dev` # start the development server 
 
 # stacked used for this project
 * `docker`
